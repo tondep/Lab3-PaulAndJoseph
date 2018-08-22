@@ -26,11 +26,7 @@ enum class Month
 class Date
 {
 public:	
-Date(int day=24, Month month = Month::September , int year = 2000)
-{   day_ =day;
-    month_=month;
-    year_=year;
-}
+Date(int , Month , int );
 	// return the day of the month
 	int	day () const;
 	// return the month of the year
